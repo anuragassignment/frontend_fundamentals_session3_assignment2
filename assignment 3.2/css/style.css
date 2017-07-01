@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 108px;
+    font-family: monospace;
+    background: url("http://i.imgur.com/Rm2NpV2.jpg") no-repeat;
+    margin: 0px;
+    background-size: cover;
+}
+
+main,
+footer {
+    color: #fff;
+}
+
+main p {
+    padding: 0px 8px 0px 8px;
+}
+
+main article {
+    padding: 0px 0px 120px 0px;
+    -webkit-box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.75);
+    position: relative;
+    z-index: 2;
+}
+
+
+/*Header and Navigation styles--------------------------------------------------------------*/
+
+nav h2 {
+    display: none;
+}
+
+header nav {
+    list-style: none;
+    display: inline-block;
+}
+
+header nav li {
+    float: left;
+}
+
+header nav li a {
+    text-decoration: none;
+}
+
+header nav ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+body>header {
+    margin-bottom: 40px;
+    padding: 0px 8px 0px 8px;
+}
+
+header li a h4 {
+    padding-right: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+header h1 {
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+}
+
+header {
+    text-align: center;
+    text-transform: uppercase;
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    top: 0;
+    z-index: 3;
+}
+
+.container {
+    position: relative;
+}
+
+
+/*----Clearfix---------------------------------------------------------------------------------*/
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/*main body Styles-----------------------------------------------------------------------------*/
+
+p {
+    font-size: 17px;
+}
+
+
+/*---------------------About us div styles-----------------------------------------------------*/
+
+#aboutUs {
+    margin: 90px 0px;
+}
+
+
+/*--------------------Aside section styles-----------------------------------------------------*/
+
+aside {
+    height: 500px;
+    width: 100%;
+    overflow: scroll;
+    font-size: 2em;
+    background: rgba(255, 255, 255, 1);
+    color: black;
+}
+
+aside h2,
+figcaption {
+    text-align: center;
+}
+
+figure img{
+    width: 100%;
+    padding:0px 0px 20px 0px;
+}
+figure{
+    margin:0px;
+}
